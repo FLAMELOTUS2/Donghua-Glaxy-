@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b1a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #6a00ff, #000);
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #1a1a2e;
+    width: 220px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card button {
+    background: #6a00ff;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #8c3bff;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px;
+    background: #111;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+}
