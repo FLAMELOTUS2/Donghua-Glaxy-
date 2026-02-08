@@ -37,32 +37,7 @@
 
     <!-- Watch Button -->
     <a 
-      href="https://www.dailymotion.com/embed/video/YOUR_VIDEO_ID" 
-      target="_blank"
-      class="watch-btn"
-    >
-      ▶ Watch Now
-    </a>
-
-  </div>
-<div class="card">
-    
-    <!-- Image -->
-    <img 
-      src="https://image2url.com/r2/default/images/1770536793812-eb184f41-45e5-4dc2-b842-e0b05f3f1fd5.jpg" 
-      alt="Battle Through The Heavens EP 185"
-      class="card-img"
-    >
-
-    <!-- Title -->
-    <h3>Battle Through The Heavens</h3>
-
-    <!-- Episode -->
-    <p class="episode">Episode 185</p>
-
-    <!-- Watch Button -->
-    <a 
-      href="https://www.dailymotion.com/embed/video/YOUR_VIDEO_ID" 
+      href="https://www.dailymotion.com/video/x9zftb8" 
       target="_blank"
       class="watch-btn"
     >
@@ -72,7 +47,6 @@
   </div>
 
 </section>
-
     <div class="card">
     
     <!-- Image -->
@@ -85,11 +59,15 @@
     <!-- Title -->
     <h3>Renegade immortal</h3>
 
-    <!-- Episodes -->
-    
-    <button onclick="window.location.href='https://www.dailymotion.com/video/x9zhpbg>EP 127</button>
-    <button onclick="window.location.href='player.html?id=x9zftb8'">EP 185</button>
-    <button onclick="window.location.href=Link add hear">EP 186</button>
+    <!-- Episode -->
+    <p class="episode">Episode 127</p>
+    <p class="episode">Episode 126</p> 
+        
+    <!-- Watch Button -->
+    <a 
+       href="https://www.dailymotion.com/video/x9zhpbg " 
+      target="_blank"
+      class="watch-btn"
     >
       ▶ Watch Now
     </a>
@@ -110,3 +88,21 @@
 <script src="script.js"></script>
 </body>
 </html>
+<body>
+
+<button class="back-btn">Back</button>
+<iframe id="player"></iframe>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const videoId = params.get("id") || "x9zftb8";
+
+document.getElementById("player").src =
+  "https://www.dailymotion.com/embed/video/" + videoId + "?autoplay=1";
+
+setTimeout(() => {
+  document.querySelector('.back-btn').style.display = "none";
+}, 5000);
+</script>
+
+</body>
