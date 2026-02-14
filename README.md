@@ -92,7 +92,7 @@ header h1{
 
 <!-- Card 1 -->
 <div class="card">
-<img src="https://image2url.com/r2/default/images/1771058183506-43ecf5b9-b619-4e11-80c9-01d84c30a296.jpg">
+<img src="https://image2url.com/r2/default/images/1771062207635-b2095892-12d1-4f07-8fab-881b8fc29d26.jpg">
 <div class="card-content">
 <h2>Battle Through The Heavens</h2>
 <div class="episodes">
