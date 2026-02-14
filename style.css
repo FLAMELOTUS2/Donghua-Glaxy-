@@ -1,116 +1,141 @@
+/* Global */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0b0b1a;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #141414;
     color: white;
 }
 
+/* Header */
 header {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(90deg, #6a00ff, #000);
+    padding: 20px 40px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0));
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
+header h1 {
+    color: #e50914;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
 nav {
-    text-align: center;
-    padding: 10px;
+    padding: 10px 40px;
     background: #111;
 }
 
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 15px;
-}
-
-.card {
-    width: 260px;
-    background: #111;
     color: #fff;
-    border-radius: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+
+/* Container */
+.container {
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    position: relative;
+    background: #181818;
+    border-radius: 8px;
     overflow: hidden;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
+    z-index: 2;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.8);
 }
 
+/* Image */
 .card-img {
     width: 100%;
-    height: 260px;
+    height: 320px;
     object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 15px;
 }
 
 .card h3 {
     margin: 10px 0 5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .episode {
-    font-size: 14px;
-    color: #aaa;
-    margin-bottom: 10px;
+    font-size: 13px;
+    color: #b3b3b3;
 }
 
+/* Watch Button */
 .watch-btn {
     display: block;
     background: #e50914;
     color: #fff;
     padding: 10px;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: 0.3s;
 }
 
 .watch-btn:hover {
-    background: #ff1e28;
+    background: #f40612;
 }
 
+/* Player Section */
 .player-section {
-    padding: 20px;
-    background: #1a1a2e;
-    margin: 20px;
-    border-radius: 10px;
+    padding: 30px;
+    background: #000;
+    margin: 30px;
+    border-radius: 8px;
 }
 
+/* Back Button */
 .back-btn {
-    background: #6a00ff;
+    background: #e50914;
     border: none;
     color: white;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 15px;
     font-weight: bold;
-    transition: background 0.3s ease;
+    transition: 0.3s;
 }
 
 .back-btn:hover {
-    background: #8c3bff;
+    background: #f40612;
 }
 
+/* Contact */
 .contact {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     background: #111;
 }
 
 .contact a {
-    color: #6a00ff;
+    color: #e50914;
     text-decoration: none;
 }
 
@@ -118,19 +143,26 @@ nav a {
     text-decoration: underline;
 }
 
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     background: #000;
+    color: #777;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
+
     .container {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
-    
+
+    .card-img {
+        height: 220px;
+    }
+
     #player {
-        height: 400px;
+        height: 350px;
     }
 }
