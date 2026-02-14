@@ -215,20 +215,20 @@
     <div class="donghua-cards">
         <!-- Card 1 -->
         <div class="donghua-card">
-            <div class="donghua-image">https://image2url.com/r2/default/images/1771058156564-d03c61f8-04c4-4822-aec8-6ef6da335fc7.jpg</div>
-            <div class="donghua-content">
+            <div class="donghua-image">BTTH</div>https://image2url.com/r2/default/images/1771058156564-d03c61f8-04c4-4822-aec8-6ef6da335fc7.jpg
+            <div class="donghua-content">https://image2url.com/r2/default/images/1771058156564-d03c61f8-04c4-4822-aec8-6ef6da335fc7.jpg
                 <div class="donghua-title">Battle Through The Haven</div>
                 <p class="donghua-description">A thrilling journey through the celestial realm with stunning animation.</p>
                 <div class="episodes-section">
                     <div class="episodes-label">Episodes Available:</div>
                     <div class="episodes-list">
-                        <span class="episode-badge">Ep 1</span>https://www.dailymotion.com/video/x9yxge2
+                        <span class="episode-badge">Ep 1</span>
                         <span class="episode-badge">Ep 2</span>
                         <span class="episode-badge">Ep 3</span>
                     </div>
                 </div>
                 <div class="watch-buttons">
-                    <a href="https://www.dailymotion.com/search/Heaven%20Officials%20Blessing%20episode%201" target="_blank" class="watch-button">▶ Watch Episode 1</a>
+                    <a href="https://https://www.dailymotion.com/video/x9yxge2" target="_blank" class="watch-button">▶ Watch Episode 1</a>
                     <a href="https://www.dailymotion.com/search/Heaven%20Officials%20Blessing%20episode%202" target="_blank" class="watch-button">▶ Watch Episode 2</a>
                 </div>
             </div>
