@@ -219,7 +219,7 @@
 
         <!-- Image Section -->
         <div class="donghua-image">
-            <img src="https://image2url.com/r2/default/images/1771058156564-d03c61f8-04c4-4822-aec8-6ef6da335fc7.jpg" 
+            <img src="https://image2url.com/r2/default/images/1771058183506-43ecf5b9-b619-4e11-80c9-01d84c30a296.jpg" 
                  alt="Battle Through The Heaven">
         </div>
 
